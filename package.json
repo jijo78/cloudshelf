@@ -1,0 +1,57 @@
+{
+  "name": "cloudshelf-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.3.19",
+    "@apollo/react-hooks": "^4.0.0",
+    "@testing-library/jest-dom": "^5.13.0",
+    "@testing-library/react": "^11.2.7",
+    "@types/react": "^17.0.9",
+    "@types/styled-components": "^5.1.9",
+    "apollo-boost": "^0.4.9",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "graphql": "^15.5.0",
+    "jest": "^27.0.4",
+    "next": "^10.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-simple-infinite-loading": "^1.1.0",
+    "styled-components": "^5.3.0",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@next/bundle-analyzer": "^10.2.3",
+    "@types/jest": "^26.0.23",
+    "@types/testing-library__jest-dom": "^5.9.5",
+    "babel": "^6.23.0",
+    "babel-jest": "^27.0.2",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.setup.js"
+    ]
+  },
+  "transform": {
+    "\\.js": "<rootDir>/node_modules/babel-jest"
+  }
+}
